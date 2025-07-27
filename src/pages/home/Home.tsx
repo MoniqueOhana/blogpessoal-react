@@ -1,28 +1,16 @@
+import './Home.css'; 
+
 function Home() {
     return (
         <>
-            <div style={{
-                width: "100vw",
-                display: "flex",
-                justifyContent: "center"
-            }}>
+            <div className="home-container">
                 <div>
-                    <div style={{
-                         width: "80vw",
-                         display: "flex",
-                         flexDirection: "column",
-                         alignItems: "center"
-                    }}>
+                    <div className="home-text-box">
                         <h2>Seja Bem Vinde!</h2>
-                        <p>Expresse aqui seus pensamentos e opniões</p>
+                        <p>Expresse aqui seus pensamentos e opiniões</p>
                     </div>
 
-                    <div style={{
-                         width: "80vw",
-                         display: "flex",
-                         flexDirection: "column",
-                         alignItems: "center"
-                    }}>
+                    <div className="home-image-box">
                         <img 
                             src="https://i.imgur.com/VpwApCU.png" 
                             alt="Imagem da Página Home" 
@@ -32,7 +20,7 @@ function Home() {
                 </div>
             </div>
         </>
-    )
+    );
 }
 
-export default Home
+export default Home;
