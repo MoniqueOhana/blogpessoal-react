@@ -1,0 +1,19 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #111111; 
+  padding: 2rem;
+  border-radius: 15px;
+  text-align: center;
+  color: #ff009d; 
+  font-family: "Bona Nova SC", serif;
+  font-size: 34px;
+}
+
+.home-container p {
+  color: #39ff14; 
+  font-size: 24px;
+}
